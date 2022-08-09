@@ -13,6 +13,9 @@ form.addEventListener('submit', (e) => {
   if (!validateEmail(emailVal)) {
     error.classList.add('active-error-state');
     input.classList.add('active-error-border-state')
+  } else {
+    alert('Your request has been submitted!');
+    input.value = ''
   }
 });
 
