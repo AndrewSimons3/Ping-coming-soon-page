@@ -77,10 +77,13 @@ button {
 	width: 150px;
 	cursor: pointer;
 	transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
 }
 
 button:hover {
 	background-color: hsl(223, 94%, 75%);
+ 
 }
 
 .social {
@@ -142,6 +145,39 @@ button:hover {
 
 .active-error-state {
   display: block;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 3rem 1rem 0 1rem;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .hero-img {
+    width: 90%;
+    margin-bottom: 2.5rem;
+  }
+
+  .input {
+    width: 95%;
+    margin-bottom: .5rem;
+    padding: .75rem 1rem;
+  }
+
+  button {
+    width: 95%;
+     padding: .75rem 1rem;
+  }
+
+
 }
 
 .attribution {
