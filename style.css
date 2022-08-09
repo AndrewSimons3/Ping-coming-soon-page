@@ -55,7 +55,7 @@ h3 {
 	display: inline-block;
 }
 
-#input {
+.input {
 	border: 1px solid hsl(223, 100%, 88%);
 	padding: 1rem;
 	width: 300px;
@@ -64,7 +64,7 @@ h3 {
 	margin-bottom: 0.25rem;
 }
 
-#input::placeholder {
+.input::placeholder {
 	color: hsl(223, 100%, 88%);
 }
 
@@ -127,6 +127,21 @@ button:hover {
 	color: hsl(354, 100%, 66%);
 	font-style: italic;
 	display: none;
+}
+
+.active-error-border-state {
+  border: 1px solid hsl(354, 100%, 66%);
+	padding: 1rem;
+	width: 300px;
+	border-radius: 25px;
+	margin-right: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+
+
+
+.active-error-state {
+  display: block;
 }
 
 .attribution {
